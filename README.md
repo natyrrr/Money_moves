@@ -54,25 +54,38 @@ until you reach the Chain ID prompt.
 
 ## INITIATED MINING NODE 1
 
+
+1. Initiared mining on node 1 using:
+./geth --datadir node1 --unlock "SEALER_ONE_ADDRESS" --mine --rpc --allow-insecure-unlock
+
+
 ![alt text](https://github.com/natyrrr/Money_moves/blob/main/Screenshots-process/MINING%20NODE%201.png)
 
 
 ## INITIATED MINING NODE 2
 
+1. Initiated mining in node 2 using:
+./geth --datadir node2 --unlock "SEALER_TWO_ADDRESS" --mine --port 30304 --bootnodes "enode://SEALER_ONE_ENODE_ADDRESS@127.0.0.1:30303" --ipcdisable --allow-insecure-unlock
+
+
 ![alt text](https://github.com/natyrrr/Money_moves/blob/main/Screenshots-process/MINING%20NODE%202.png)
 
 ## ADDED KEYSTONE FILE AND CONNECTED BANKNOTE TO MY CRYPTO WALLET
+
+1. logged into MyCrypto.
+2. changed my network by creating a custom network using the network created using the genesis block. (banknote)
+3. after connected I added a keystone file and was able to confirm my mining amount were in my wallet.
 
 ![alt text](https://github.com/natyrrr/Money_moves/blob/main/Screenshots-process/CONNECTED%20NETWORK%20TO%20MYCRYPTO.png)
 
 
 ## SENDING MONEY TO MYSELF
 
+1. sent myself some money to confirm the transaction.
+2. SUCCESS!!
+
 ![alt text](https://github.com/natyrrr/Money_moves/blob/main/Screenshots-process/SENDING%20MONEY%20TO%20MYSELF.png)
 
 
 
-![alt text](http://url/to/img.png)
 
-
-![alt text](http://url/to/img.png)
