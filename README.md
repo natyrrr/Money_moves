@@ -1,4 +1,4 @@
-# Money_moves
+# Money Moves!!
 Creating Ethereum based currency with Blockchain- proof of authority
 
 ## INITIATED NODE 1 AND NODE 2
